@@ -126,7 +126,7 @@ object ListTest extends App {
   println("next")
   println(listOfIntegers)
 
-  println(listOfIntegers.map(new Function1[Int, Int]{
+  println(listOfIntegers.map(val twice:(Int, Int)=>Int= {
       override def apply(elem: Int) = elem * 2
   }).toString)
 
