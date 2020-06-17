@@ -28,4 +28,6 @@ object AnonymousFunction extends App{
         2. Rewrite the "special" adder as an anonymous function
      */
 
+  val specialAdder= (x: Int)=> (y: Int) => x+y
+
 }
